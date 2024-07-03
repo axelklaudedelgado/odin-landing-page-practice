@@ -4,3 +4,9 @@
     background-color: #1F2937;
     text-align: center;
 }
+
+.logo-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
