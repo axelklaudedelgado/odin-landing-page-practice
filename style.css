@@ -8,6 +8,19 @@
     background-color: #1F2937;
 }
 
+.hero{
+    display: flex;
+}
+
+.hero-content, .image{
+    flex: 1;
+}
+
+.two_one {
+    height: 400px;
+    width: auto;
+}
+
 .logo-links{
     display: flex;
     align-items: center;
