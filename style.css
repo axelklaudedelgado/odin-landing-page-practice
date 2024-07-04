@@ -33,6 +33,8 @@ body {
 .item .image {
     width: 150px;
     height: auto;
+    border: 4px solid #D9282F;
+    border-radius: 25px;
 }
 
 .title {
@@ -46,5 +48,10 @@ body {
   margin-top: 32px;
   justify-content: center;
   gap: 52px;
+}
+
+.item {
+    max-width: 250px;
+    text-align: center;
 }
   
