@@ -26,3 +26,8 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.item .image {
+    width: 150px;
+    height: auto;
+}
