@@ -57,6 +57,10 @@ body {
   
 .testimonial {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .testimonial .text {
@@ -68,7 +72,10 @@ body {
 }
 
 .testimonial .subtext {
+    max-width: 1110px;
     font-weight: bold;
     font-size: 20px;
     color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
 }
