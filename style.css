@@ -40,4 +40,11 @@ body {
     font-weight: 800;
     text-align: center;
   }
+
+.information .container {
+  display: flex;
+  margin-top: 32px;
+  justify-content: center;
+  gap: 52px;
+}
   
