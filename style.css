@@ -1,12 +1,20 @@
 body {
     font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .header {
+    flex: 5;
     display: flex;
     justify-content: center;
-    height: 700px;
 }
+
+.information {
+    flex: 4;
+}
+
 
 .header .container {
     width: 1300px;
@@ -17,7 +25,10 @@ body {
 }
 
 .footer {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
 }
 
 .footer, .header{
@@ -97,6 +108,7 @@ body {
 }
   
 .testimonial {
+    flex: 3;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -122,6 +134,7 @@ body {
 }
 
 .action{
+    flex: 2;
     display: flex;
     justify-content: center;
     align-items: center;
