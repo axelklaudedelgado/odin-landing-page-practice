@@ -104,3 +104,19 @@ body {
     display: flex;
     justify-content: flex-end;
 }
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action .container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8de08;
+}
+
+.action .container-two {
+    display: flex;
+}
