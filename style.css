@@ -37,6 +37,7 @@ body {
     color: #1F2937;
     border: none;
     border-radius: 8px;
+    font-weight: bold;
 }
 
 .hero-content, .image{
