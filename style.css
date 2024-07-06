@@ -2,6 +2,20 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .container {
+    width: 1300px;
+}
+
+.hero .content, .hero .image {
+    height: 250px;
+}
+
 .footer {
     text-align: center;
 }
@@ -9,6 +23,12 @@ body {
 .footer, .header{
     color: white;
     background-color: #d9282f;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    list-style: none;
 }
 
 .logo{
@@ -40,11 +60,7 @@ body {
     font-weight: bold;
 }
 
-.hero-content, .image{
-    flex: 1;
-}
-
-.two_one {
+.platter {
     height: 400px;
     width: auto;
 }
