@@ -62,13 +62,16 @@ body {
     color: #E5E7EB;
 }
 
-.header .button{
-    padding: 8px 16px;
+button{
     background-color: #f8de08;
     color: #1F2937;
-    border: none;
     border-radius: 8px;
     font-weight: bold;
+}
+
+.header .button {
+    border: none;
+    padding: 6px 18px;
 }
 
 .platter {
@@ -143,10 +146,11 @@ body {
 .action .container {
     display: flex;
     background-color: #f8de08;
+    color: #1F2937;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-    padding: 25px 90px;
+    padding: 35px 90px;
 }
 
 .action .container-two {
@@ -161,5 +165,9 @@ body {
 .action .subtext {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+}
+
+.action .sign-up-button {
+    border: 2px solid #1F2937;
+    padding: 6px 18px;
 }
