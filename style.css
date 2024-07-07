@@ -142,10 +142,24 @@ body {
 
 .action .container {
     display: flex;
-    flex-direction: column;
     background-color: #f8de08;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 90px;
 }
 
 .action .container-two {
+    width: 500px;
+}
+
+.action .text {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.action .subtext {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
