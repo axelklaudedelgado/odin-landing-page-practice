@@ -1,20 +1,12 @@
 body {
     font-family: "Roboto", sans-serif;
-    display: flex;
-    flex-direction: column;
     height: 100vh;
 }
 
 .header {
-    flex: 5;
     display: flex;
     justify-content: center;
 }
-
-.information {
-    flex: 4;
-}
-
 
 .header .container {
     width: 1100px;
@@ -24,10 +16,13 @@ body {
     padding: 70px 0 120px;
 }
 
+.hero .text, .hero .subtext {
+    margin-bottom: 12px;
+}
+
 .footer {
     display: flex;
     align-items: center;
-    flex: 1;
     justify-content: center;
 }
 
@@ -117,7 +112,6 @@ button{
 }
   
 .testimonial {
-    flex: 3;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -143,7 +137,6 @@ button{
 }
 
 .action{
-    flex: 2;
     display: flex;
     justify-content: center;
     align-items: center;
