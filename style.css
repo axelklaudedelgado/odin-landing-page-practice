@@ -112,6 +112,10 @@ button{
   gap: 52px;
 }
 
+.information .image {
+    margin-bottom: 5px;
+}
+
 .item {
     max-width: 250px;
     text-align: center;
